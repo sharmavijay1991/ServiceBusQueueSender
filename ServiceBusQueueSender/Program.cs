@@ -40,7 +40,7 @@ namespace ServiceBusQueueSender
         static ServiceBusSender sender;
 
         // number of messages to be sent to the queue
-        private const int run_duration = 60;
+        private const int run_duration = 180;
 
         //Vijay Objects
         static URLData msg;

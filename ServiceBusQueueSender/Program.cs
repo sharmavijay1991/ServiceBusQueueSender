@@ -28,10 +28,10 @@ namespace ServiceBusQueueSender
 
     class Program
     {
-        static string connectionString = "Endpoint=sb://vijaysharma-namespace-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=V9kFJKis5RwDKaJESTuy/y45muotm+FxyHfT+PQzRlw=";
+        static string connectionString = "<Service Bus Connection String>";
 
         // name of your Service Bus queue
-        static string queueName = "vijaysharma-sample-queue";
+        static string queueName = "<QueueName>";
 
         // the client that owns the connection and can be used to create senders and receivers
         static ServiceBusClient client;
